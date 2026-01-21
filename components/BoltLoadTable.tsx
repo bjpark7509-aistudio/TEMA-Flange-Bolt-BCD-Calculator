@@ -143,7 +143,7 @@ export const BoltLoadTable: React.FC<Props> = ({ inputs, results }) => {
                         </div>
                       ) : (
                         <div className="mb-2">
-                          <div className="opacity-50 text-[8px] mb-1 font-sans">b₀ > 6: Gasket OD - 2b</div>
+                          <div className="opacity-50 text-[8px] mb-1 font-sans">b₀ &gt; 6: Gasket OD - 2b</div>
                           <div className="flex justify-between font-bold">
                             <span>{results.seatingOD.toFixed(1)} - (2 × {results.bWidth.toFixed(2)})</span>
                           </div>
